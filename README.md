@@ -3,12 +3,6 @@ A fun IRC bot that help us on work days
 
 [![Build Status](https://travis-ci.org/meleca/mr-roboto.svg?branch=master)](https://travis-ci.org/meleca/mr-roboto) [![codecov](https://codecov.io/gh/meleca/mr-roboto/branch/master/graph/badge.svg)](https://codecov.io/gh/meleca/mr-roboto) [![Updates](https://pyup.io/repos/github/meleca/mr-roboto/shield.svg)](https://pyup.io/repos/github/meleca/mr-roboto/) [![Python 3](https://pyup.io/repos/github/meleca/mr-roboto/python-3-shield.svg)](https://pyup.io/repos/github/meleca/mr-roboto/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Development
-
-Prior to start the development on mr_roboto it's necessary to follow some steps
-in order to setup the environment: [*virtual environment*][pipenv], [*database
-migration*][alembic] and [*pre-commit hooks*][pre-commit].
-
 ## Virtual environment through [**Pipenv**][pipenv]
 
 The first thing you need to do after the `git clone` is setup the *virtual
@@ -63,7 +57,7 @@ commit something first add them to your staging area with `git add`.*
 With the three steps done you can easily run mr_roboto:
 
 ```
-$ python mr_roboto.py settings.ini
+$ python irc_start.py settings.ini
 ```
 
 [pipenv]: https://pipenv.readthedocs.io/en/latest/
