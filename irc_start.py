@@ -2,7 +2,8 @@ from os import path
 from config import conf
 from irc3 import IrcBot
 from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
+from watchdog.events import 
+FileSystemEventHandler
 import re
 
 
